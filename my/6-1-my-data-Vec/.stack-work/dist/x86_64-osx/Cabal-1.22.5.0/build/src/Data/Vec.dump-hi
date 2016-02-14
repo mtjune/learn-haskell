@@ -1,0 +1,328 @@
+
+==================== FINAL INTERFACE ====================
+2016-02-02 04:42:55.369371 UTC
+
+interface vec_0AimafswjofIDR4ypRT3GR:Data.Vec 7103
+  interface hash: 3d38e16277448c900a41f1a283750fda
+  ABI hash: 666b87abea6380e65c1dcb118c76d035
+  export-list hash: d8baf1cc62daac54d027cacd0e46f946
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 8d65f2cb1b28ee4c5a210df09d4af865
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Data.Vec.×
+  Data.Vec.・
+  Data.Vec.Vec{Data.Vec.Vec}
+module dependencies:
+package dependencies: base-4.8.2.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec :: GHC.Num.Num a => GHC.Num.Num (Data.Vec.Vec a)
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,U(C(C1(U)),A,A,A,A,A,C(U))>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ a $dNum :: GHC.Num.Num a.
+                  @ (Data.Vec.Vec a)
+                  (Data.Vec.$fNumVec_$c+ @ a $dNum)
+                  (Data.Vec.$fNumVec_$c- @ a $dNum)
+                  (Data.Vec.$fNumVec_$c* @ a $dNum)
+                  (Data.Vec.$fNumVec_$cnegate @ a $dNum)
+                  (Data.Vec.$fNumVec_$cabs @ a $dNum)
+                  (Data.Vec.$fNumVec_$csignum @ a $dNum)
+                  (Data.Vec.$fNumVec_$cfromInteger @ a $dNum) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec1 :: Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Strictness: b -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec2 :: Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Strictness: b -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec3 :: Data.Vec.Vec a -> Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Strictness: b -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$c* ::
+    GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 1, Strictness: <B,A>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a $dNum :: GHC.Num.Num a -> Data.Vec.$fNumVec3 @ a) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$c+ ::
+    GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,U(C(C1(U)),A,A,A,A,A,A)><S,1*U(U,U,U)><S,1*U(U,U,U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   w :: GHC.Num.Num a
+                   w1 :: Data.Vec.Vec a
+                   w2 :: Data.Vec.Vec a ->
+                 case w1 of ww { Data.Vec.Vec ww1 ww2 ww3 ->
+                 case w2 of ww4 { Data.Vec.Vec ww5 ww6 ww7 ->
+                 Data.Vec.Vec
+                   @ a
+                   (GHC.Num.+ @ a w ww1 ww5)
+                   (GHC.Num.+ @ a w ww2 ww6)
+                   (GHC.Num.+ @ a w ww3 ww7) } }) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$c- ::
+    GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A,A,A,A,C(U))><L,U><L,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding(loop-breaker): InlineRule (3, False, False)
+                              (\ @ a
+                                 $dNum :: GHC.Num.Num a
+                                 x :: Data.Vec.Vec a
+                                 y :: Data.Vec.Vec a ->
+                               Data.Vec.$fNumVec_$c+
+                                 @ a
+                                 $dNum
+                                 x
+                                 (Data.Vec.$fNumVec_$c-
+                                    @ a
+                                    $dNum
+                                    (Data.Vec.$fNumVec_$cfromInteger @ a $dNum __integer 0)
+                                    y)) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$cabs :: GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 1, Strictness: <B,A>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a $dNum :: GHC.Num.Num a -> Data.Vec.$fNumVec2 @ a) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$cfromInteger ::
+    GHC.Num.Num a => GHC.Integer.Type.Integer -> Data.Vec.Vec a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,A,A,A,1*C1(U))><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a $dNum :: GHC.Num.Num a n :: GHC.Integer.Type.Integer ->
+                 let {
+                   nl :: a = GHC.Num.fromInteger @ a $dNum n
+                 } in
+                 Data.Vec.Vec @ a nl nl nl) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$cnegate ::
+    GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 2, Strictness: <L,U(C(C1(U)),A,A,A,A,A,C(U))><L,U>,
+     Inline: INLINE (sat-args=1),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ a $dNum :: GHC.Num.Num a x :: Data.Vec.Vec a ->
+                 Data.Vec.$fNumVec_$c-
+                   @ a
+                   $dNum
+                   (Data.Vec.$fNumVec_$cfromInteger @ a $dNum __integer 0)
+                   x) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fNumVec_$csignum ::
+    GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 1, Strictness: <B,A>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a $dNum :: GHC.Num.Num a -> Data.Vec.$fNumVec1 @ a) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fShowVec :: GHC.Show.Show a => GHC.Show.Show (Data.Vec.Vec a)
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,U(C(C1(U)),A,A)>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ a $dShow :: GHC.Show.Show a.
+                  @ (Data.Vec.Vec a)
+                  (Data.Vec.$fShowVec_$cshowsPrec @ a $dShow)
+                  (Data.Vec.$fShowVec_$cshow @ a $dShow)
+                  (Data.Vec.$fShowVec_$cshowList @ a $dShow) -}
+f21f0fe4fb44516e937bb0a533d7d925
+  $fShowVec1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+2bc55735934956e98dd07ee445c46fba
+  $fShowVec2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Vec "#) -}
+392ff6f5e1b21f839d229f210a1181ee
+  $fShowVec3 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fShowVec_$cshow ::
+    GHC.Show.Show a => Data.Vec.Vec a -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U(C(C1(U)),A,A)><S,1*U(U,U,U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a $dShow :: GHC.Show.Show a x :: Data.Vec.Vec a ->
+                 Data.Vec.$fShowVec_$cshowsPrec
+                   @ a
+                   $dShow
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fShowVec_$cshowList ::
+    GHC.Show.Show a => [Data.Vec.Vec a] -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A)><S,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   $dShow :: GHC.Show.Show a
+                   eta :: [Data.Vec.Vec a]
+                   eta1 :: GHC.Base.String ->
+                 GHC.Show.showList__
+                   @ (Data.Vec.Vec a)
+                   (Data.Vec.$fShowVec_$cshowsPrec @ a $dShow Data.Vec.$fShowVec1)
+                   eta
+                   eta1) -}
+e75a1c8742073a8649a2f58d266f1595
+  $fShowVec_$cshowsPrec ::
+    GHC.Show.Show a =>
+    GHC.Types.Int -> Data.Vec.Vec a -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <L,U(C(C1(U)),A,A)><S,1*U(U)><S,1*U(U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   w :: GHC.Show.Show a
+                   w1 :: GHC.Types.Int
+                   w2 :: Data.Vec.Vec a ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w2 of ww2 { Data.Vec.Vec ww3 ww4 ww5 ->
+                 Data.Vec.$w$cshowsPrec @ a w ww1 ww3 ww4 ww5 } }) -}
+38153f8c08cba9765473c616c2746172
+  $w$cshowsPrec ::
+    GHC.Show.Show a => GHC.Prim.Int# -> a -> a -> a -> GHC.Show.ShowS
+  {- Arity: 5, Strictness: <L,U(C(C1(U)),A,A)><L,U><L,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Show.Show a
+                   ww :: GHC.Prim.Int#
+                   ww1 :: a
+                   ww2 :: a
+                   ww3 :: a ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.showsPrec @ a w Data.Vec.$fShowVec3 ww1
+                 } in
+                 let {
+                   f1 :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.showsPrec @ a w Data.Vec.$fShowVec3 ww2
+                 } in
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.showsPrec @ a w Data.Vec.$fShowVec3 ww3
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,U> -}
+                   = \ x :: GHC.Base.String ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Data.Vec.$fShowVec2
+                       (f (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.showSpace1
+                             (f1 (GHC.Types.: @ GHC.Types.Char GHC.Show.showSpace1 (g x)))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ x :: GHC.Base.String ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 x)) }) -}
+90eac1e0b3218a3810cb39ef1671e0ef
+  $w× :: GHC.Num.Num a => a -> a -> a -> a -> a -> a -> (# a, a, a #)
+  {- Arity: 7, HasNoCafRefs,
+     Strictness: <L,U(A,C(C1(U)),C(C1(U)),A,A,A,A)><L,U><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Num.Num a
+                   ww :: a
+                   ww1 :: a
+                   ww2 :: a
+                   ww3 :: a
+                   ww4 :: a
+                   ww5 :: a ->
+                 (# GHC.Num.-
+                      @ a
+                      w
+                      (GHC.Num.* @ a w ww1 ww5)
+                      (GHC.Num.* @ a w ww2 ww4),
+                    GHC.Num.- @ a w (GHC.Num.* @ a w ww2 ww3) (GHC.Num.* @ a w ww ww5),
+                    GHC.Num.-
+                      @ a
+                      w
+                      (GHC.Num.* @ a w ww ww4)
+                      (GHC.Num.* @ a w ww1 ww3) #)) -}
+fcd62689df347a7a7e588d0c1824ea07
+  $w・ :: GHC.Num.Num a => a -> a -> a -> a -> a -> a -> a
+  {- Arity: 7, HasNoCafRefs,
+     Strictness: <S(C(C(S))LLLLLL),U(C(C1(U)),A,C(C1(U)),A,A,A,A)><L,U><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   w :: GHC.Num.Num a
+                   ww :: a
+                   ww1 :: a
+                   ww2 :: a
+                   ww3 :: a
+                   ww4 :: a
+                   ww5 :: a ->
+                 GHC.Num.+
+                   @ a
+                   w
+                   (GHC.Num.+
+                      @ a
+                      w
+                      (GHC.Num.* @ a w ww ww3)
+                      (GHC.Num.* @ a w ww1 ww4))
+                   (GHC.Num.* @ a w ww2 ww5)) -}
+e75a1c8742073a8649a2f58d266f1595
+  data Vec a = Vec a a a
+    Promotable
+66edc0da0a98929bdcf783f92aab48e8
+  (×) ::
+    GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a -> Data.Vec.Vec a
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,U(A,C(C1(U)),C(C1(U)),A,A,A,A)><S,1*U(U,U,U)><S,1*U(U,U,U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   w :: GHC.Num.Num a
+                   w1 :: Data.Vec.Vec a
+                   w2 :: Data.Vec.Vec a ->
+                 case w1 of ww { Data.Vec.Vec ww1 ww2 ww3 ->
+                 case w2 of ww4 { Data.Vec.Vec ww5 ww6 ww7 ->
+                 case Data.Vec.$w×
+                        @ a
+                        w
+                        ww1
+                        ww2
+                        ww3
+                        ww5
+                        ww6
+                        ww7 of ww8 { (#,,#) ww9 ww10 ww11 ->
+                 Data.Vec.Vec @ a ww9 ww10 ww11 } } }) -}
+fab52c8dd8e8fb0af517d0a114fd3d35
+  ・ :: GHC.Num.Num a => Data.Vec.Vec a -> Data.Vec.Vec a -> a
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))LLLLLL),U(C(C1(U)),A,C(C1(U)),A,A,A,A)><S,1*U(U,U,U)><S,1*U(U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   w :: GHC.Num.Num a
+                   w1 :: Data.Vec.Vec a
+                   w2 :: Data.Vec.Vec a ->
+                 case w1 of ww { Data.Vec.Vec ww1 ww2 ww3 ->
+                 case w2 of ww4 { Data.Vec.Vec ww5 ww6 ww7 ->
+                 Data.Vec.$w・ @ a w ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+instance GHC.Num.Num [Data.Vec.Vec] = Data.Vec.$fNumVec
+instance GHC.Show.Show [Data.Vec.Vec] = Data.Vec.$fShowVec
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

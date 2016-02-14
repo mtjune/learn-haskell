@@ -1,0 +1,228 @@
+
+==================== FINAL INTERFACE ====================
+2016-02-02 06:51:03.488494 UTC
+
+interface main@main:Main 7103
+  interface hash: b0790df8e2486741eca85380adb0fc28
+  ABI hash: e0a374cd8d68b6340591e40834869cca
+  export-list hash: c1c2cb8ebef935f8fcb0622e274a5fd8
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ccc1aa2ee729a4764b02a7c969be808a
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+  Main.pred3
+  Main.predMay
+  Main.predN
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      base-4.8.2.0 deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      ghc-prim-0.4.0.0 integer-gmp-1.0.0.0
+                      spoon-0.3.1@spoon_9oOSj6EQoEaICkwADE984F
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Enum debc6de3086023a15993ab0cecffb90b
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0899686bfc1d9ef72dff3de85e99862a
+import  -/  deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59:Control.DeepSeq 246a9f10b3a819aeaf083ff6e16b5dcc
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  spoon-0.3.1@spoon_9oOSj6EQoEaICkwADE984F:Control.Spoon 955c2bf9d475235f34bad87e5e74c822
+7ca216bb36c8de5162c3be64440ee01e
+  $w$spredN ::
+    GHC.Prim.Int# -> GHC.Types.Char -> GHC.Base.Maybe GHC.Types.Char
+  {- Arity: 2, Strictness: <S,1*U><L,U(U)>, Inline: [0] -}
+dc83318532e9878c159e97b787c5805a
+  $wpredN ::
+    (GHC.Enum.Enum a, Control.DeepSeq.NFData a) =>
+    GHC.Prim.Int# -> a -> GHC.Base.Maybe a
+  {- Arity: 4,
+     Strictness: <L,U(A,C(U),A,A,A,A,A,A)><L,C(H)><S,1*U><L,U>,
+     Inline: [0] -}
+80be12830813c860f1da29aa999174ee
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+5f64331fd1f66bebdd4695812e341082
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Main.main11
+                        GHC.Types.True
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Main.main8
+                        GHC.Types.True
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Main.main6
+                        GHC.Types.True
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Main.main2
+                   GHC.Types.True
+                   ipv4 } } }) -}
+44b1cb3d47ad43be3509a11f92ec2259
+  main10 :: GHC.Types.IO (GHC.Base.Maybe GHC.Types.Bool)
+  {- Strictness: b -}
+94c51badc917d46996c840b300cf9cc8
+  main11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hello world"#) -}
+b3ff4d50688d691bbc47dd168e93a298
+  main12 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+1942c236ee03ab585c2733f629dc62b3
+  main2 :: GHC.Base.String
+  {- Unfolding: (case Main.$w$spredN 32 Main.main5 of wild {
+                   GHC.Base.Nothing -> GHC.Show.$fShowMaybe3
+                   GHC.Base.Just b1
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        GHC.Show.$fShowMaybe1
+                        (case b1 of ww { GHC.Types.C# ww1 ->
+                         case ww1 of ds {
+                           DEFAULT
+                           -> GHC.Types.:
+                                @ GHC.Types.Char
+                                GHC.Show.shows15
+                                (GHC.Show.$wshowLitChar ds Main.main4)
+                           '\'' -> Main.main3 } }) }) -}
+c6fda8429b252310a58d5e19143c31ef
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Base.++
+                   @ GHC.Types.Char
+                   GHC.Show.shows14
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+ee2da79b786319bddeb9eef777d63054
+  main4 :: [GHC.Types.Char]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows15
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+e59895668975c6e07e1460b21e59c3d0
+  main5 :: GHC.Types.Char
+  {- HasNoCafRefs, Unfolding: (GHC.Types.C# 'z') -}
+da93fc207c7258761c2b507f506cc5e5
+  main6 :: GHC.Base.String
+  {- Unfolding: (case Main.$w$spredN 256 Main.main7 of wild {
+                   GHC.Base.Nothing -> GHC.Show.$fShowMaybe3
+                   GHC.Base.Just b1
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        GHC.Show.$fShowMaybe1
+                        (case b1 of ww { GHC.Types.C# ww1 ->
+                         case ww1 of ds {
+                           DEFAULT
+                           -> GHC.Types.:
+                                @ GHC.Types.Char
+                                GHC.Show.shows15
+                                (GHC.Show.$wshowLitChar ds Main.main4)
+                           '\'' -> Main.main3 } }) }) -}
+dcd502099a933ad3ae79d818a86f3d31
+  main7 :: GHC.Types.Char
+  {- HasNoCafRefs, Unfolding: (GHC.Types.C# 'a') -}
+daa061b318b08106175295113022649e
+  main8 :: GHC.Base.String
+  {- Unfolding: (case GHC.IO.unsafeDupablePerformIO
+                        @ (GHC.Base.Maybe GHC.Types.Bool)
+                        Main.main9
+                          `cast`
+                        (Sym (GHC.Types.NTCo:IO[0]
+                                  <GHC.Base.Maybe GHC.Types.Bool>_R)) of wild {
+                   GHC.Base.Nothing -> GHC.Show.$fShowMaybe3
+                   GHC.Base.Just b1
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        GHC.Show.$fShowMaybe1
+                        (case b1 of wild1 {
+                           GHC.Types.False -> GHC.Show.shows17
+                           GHC.Types.True -> GHC.Show.shows16 }) }) -}
+d8b1bec9ad86297912fcafccf5f66778
+  main9 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe GHC.Types.Bool #)
+  {- Arity: 1,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.Prim.noDuplicate# s of s' { DEFAULT ->
+                 Control.Exception.catches1
+                   @ (GHC.Base.Maybe GHC.Types.Bool)
+                   Main.main10
+                   (Control.Spoon.defaultHandles @ GHC.Types.Bool)
+                   s' }) -}
+fbbe1f4f91e9b600043aca1513b33425
+  pred3 ::
+    (GHC.Enum.Enum a, Control.DeepSeq.NFData a) =>
+    a -> GHC.Base.Maybe a
+  {- Arity: 3, Strictness: <L,U(A,C(U),A,A,A,A,A,A)><L,1*C1(H)><L,U>,
+     Unfolding: (\ @ a
+                   $dEnum :: GHC.Enum.Enum a
+                   $dNFData :: Control.DeepSeq.NFData a
+                   eta :: a ->
+                 Control.Spoon.spoonWithHandles
+                   @ a
+                   $dNFData
+                   (Control.Spoon.defaultHandles @ a)
+                   (GHC.Enum.pred
+                      @ a
+                      $dEnum
+                      (GHC.Enum.pred @ a $dEnum (GHC.Enum.pred @ a $dEnum eta)))) -}
+69a76508ca496e510987ade6d979a13f
+  predMay ::
+    (GHC.Enum.Enum a, Control.DeepSeq.NFData a) =>
+    a -> GHC.Base.Maybe a
+  {- Arity: 3,
+     Strictness: <L,1*U(A,1*C1(U),A,A,A,A,A,A)><L,1*C1(H)><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   $dEnum :: GHC.Enum.Enum a
+                   $dNFData :: Control.DeepSeq.NFData a
+                   eta :: a ->
+                 Control.Spoon.spoonWithHandles
+                   @ a
+                   $dNFData
+                   (Control.Spoon.defaultHandles @ a)
+                   (GHC.Enum.pred @ a $dEnum eta)) -}
+f6635398429736722eeed018c0cbec87
+  predN ::
+    (GHC.Enum.Enum a, Control.DeepSeq.NFData a) =>
+    GHC.Types.Int -> a -> GHC.Base.Maybe a
+  {- Arity: 4,
+     Strictness: <L,U(A,C(U),A,A,A,A,A,A)><L,C(H)><S(S),1*U(1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a
+                   w :: GHC.Enum.Enum a
+                   w1 :: Control.DeepSeq.NFData a
+                   w2 :: GHC.Types.Int
+                   w3 :: a ->
+                 case w2 of ww { GHC.Types.I# ww1 ->
+                 Main.$wpredN @ a w w1 ww1 w3 }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
