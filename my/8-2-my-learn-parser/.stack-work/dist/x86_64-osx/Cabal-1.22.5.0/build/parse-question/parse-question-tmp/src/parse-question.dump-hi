@@ -1,0 +1,490 @@
+
+==================== FINAL INTERFACE ====================
+2016-02-14 12:59:13.300338 UTC
+
+interface main@main:Main 7103
+  interface hash: 41a900fc9d3d8235049a74b51cabfe4b
+  ABI hash: 42449719b7347f705f676657b9898186
+  export-list hash: 34b20b49cde2618a76314f7f5a7affe7
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 631b8328bf800480bcce403aeb697f78
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+  Main.question
+module dependencies:
+package dependencies: StateVar-1.1.0.3@State_8WYLUQJECQz8PFb9p2aPSq
+                      adjunctions-4.3@adjun_4OzCZLHMGdTFiEgQa56gzW
+                      ansi-terminal-0.6.2.3@ansit_BDlVdfJGo3VHCIHxPTNjH1
+                      ansi-wl-pprint-0.6.7.3@ansiw_KTAhiPa3RNI09mbeoAwSSX
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.1@attop_KGz8kXnHawX2yTRIBzGnQa base-4.8.2.0
+                      base-orphans-0.5.0@baseo_6r3PnYSweurA3Ul5tUzwvY
+                      bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-markup-0.7.0.3@blaze_0GHhaMWFHoQLer0aTKr3fi
+                      blaze-html-0.8.1.1@blaze_8uBsT1Ot9JRCmtYCOlWBzS
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      charset-0.3.7.1@chars_C1mHGve9H6X8tKKKo9suPR
+                      comonad-4.2.7.2@comon_KfupLqROY6RCjNcrCTISy2
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_HYCJi6lkkuj6AqUR2sD0F4
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      distributive-0.5.0.2@distr_BEiG4kloQDJF2Gyawdiypp
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      fingertree-0.1.1.0@finge_1lOqL113GSbGT54Xr1ttX9
+                      free-4.12.4@free_H0xAZC6ryiRBhNB3M3pavQ ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_8GjadD03dR57AKCJdr90LD integer-gmp-1.0.0.0
+                      kan-extensions-4.2.3@kanex_IjZQOLbyuqoKjJIXoHvLQM
+                      lens-4.13@lens_J230pp0JenGIbyt6JHmgqA
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      parsers-0.12.3@parse_7IeETt5KtUa9d7Qo0cOYm0
+                      parsec-3.1.9@parse_EE5NO1mlYLh4J8mgDEshNv
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      profunctors-5.2@profu_5kLvR2WiKGO302nFcdTp7Y
+                      reducers-3.12.1@reduc_GgRvx0hX4jzGWIgdoknizT
+                      reflection-2.1.1.1@refle_7dvkeTy4Ejm3qeyCCfttuN
+                      scientific-0.3.4.4@scien_AqBmwDfwK7K24A70hu3AxF
+                      semigroups-0.18.0.1@semig_7B7U5h9acISEZT3vUdd66v
+                      semigroupoids-5.0.1@semig_9uNHHSFgbmX22yXuQEurQy
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      tagged-0.8.2@tagge_LsPQD6UphhxLXSI5S11irM template-haskell-2.10.0.0
+                      text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO
+                      unordered-containers-0.2.5.1@unord_8BVO2aaPxdK7U6ObhjDGGE
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.0@baseo_6r3PnYSweurA3Ul5tUzwvY:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_8GjadD03dR57AKCJdr90LD:Data.Hashable.Generic
+         reducers-3.12.1@reduc_GgRvx0hX4jzGWIgdoknizT:Data.Semigroup.Instances
+         reflection-2.1.1.1@refle_7dvkeTy4Ejm3qeyCCfttuN:Data.Reflection
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text
+         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text.Lazy
+         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text.Show
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Instances
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjun_4OzCZLHMGdTFiEgQa56gzW:Data.Functor.Rep
+                         attoparsec-0.13.0.1@attop_KGz8kXnHawX2yTRIBzGnQa:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_7SbOqCd0gW13jtiYeX5INp:Data.Bifunctor.Wrapped
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         kan-extensions-4.2.3@kanex_IjZQOLbyuqoKjJIXoHvLQM:Data.Functor.Yoneda
+                         lens-4.13@lens_J230pp0JenGIbyt6JHmgqA:Control.Lens.At
+                         lens-4.13@lens_J230pp0JenGIbyt6JHmgqA:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_J230pp0JenGIbyt6JHmgqA:Control.Lens.Internal.Zoom
+                         lens-4.13@lens_J230pp0JenGIbyt6JHmgqA:Control.Lens.Reified
+                         lens-4.13@lens_J230pp0JenGIbyt6JHmgqA:Control.Lens.Tuple
+                         lens-4.13@lens_J230pp0JenGIbyt6JHmgqA:Control.Lens.Wrapped
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.2@profu_5kLvR2WiKGO302nFcdTp7Y:Data.Profunctor.Rep
+                         semigroups-0.18.0.1@semig_7B7U5h9acISEZT3vUdd66v:Data.List.NonEmpty
+                         semigroups-0.18.0.1@semig_7B7U5h9acISEZT3vUdd66v:Data.Semigroup
+                         tagged-0.8.2@tagge_LsPQD6UphhxLXSI5S11irM:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text
+                         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text.Lazy
+                         trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Delta
+                         trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Rendering
+                         trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Rope
+                         unordered-containers-0.2.5.1@unord_8BVO2aaPxdK7U6ObhjDGGE:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_8BVO2aaPxdK7U6ObhjDGGE:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+import  -/  ansi-wl-pprint-0.6.7.3@ansiw_KTAhiPa3RNI09mbeoAwSSX:Text.PrettyPrint.ANSI.Leijen 798c563a1f4c5a66119895ffed3a9b8e
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0899686bfc1d9ef72dff3de85e99862a
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  parsers-0.12.3@parse_7IeETt5KtUa9d7Qo0cOYm0:Text.Parser.Char 3930b3e9cd6a1c5128417a1ab0c226f5
+import  -/  parsers-0.12.3@parse_7IeETt5KtUa9d7Qo0cOYm0:Text.Parser.Combinators e4ec10e76491c4239efadc995c53b3e8
+import  -/  trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta b331ef0fe0788c9964f5b579b4517f35
+import  -/  trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Delta 5b194fb4bfe50941a75d6a43b0e99544
+import  -/  trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Parser d29d5523c6cdd43ec6d078e790724365
+import  -/  trifecta-1.5.2@trife_0WJ1tUv5ssW43BOGZNJaiO:Text.Trifecta.Result 8a93cd59f2f071cfaf18661b273fd725
+48f66cea1505d1c14336b1b35ee3f9af
+  $wa ::
+    (GHC.Base.String
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.Trifecta.Result.Err
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (GHC.Base.String
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 3, Strictness: <L,C(C1(U))><L,C(U)><L,C(U)>, Inline: [0],
+     Unfolding: (\ @ r
+                   w :: GHC.Base.String
+                        -> Text.Trifecta.Result.Err
+                        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w1 :: Text.Trifecta.Result.Err
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w2 :: GHC.Base.String
+                         -> Data.Set.Base.Set GHC.Base.String
+                         -> Text.Trifecta.Delta.Delta
+                         -> Data.ByteString.Internal.ByteString
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r ->
+                 let {
+                   lvl9 :: Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   = w1 Main.question7
+                 } in
+                 let {
+                   lvl10 :: Data.Set.Base.Set GHC.Base.String
+                            -> Text.Trifecta.Delta.Delta
+                            -> Data.ByteString.Internal.ByteString
+                            -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   = w2 Main.question_eta
+                 } in
+                 Main.question_ds2
+                   `cast`
+                 (Text.Trifecta.Parser.NTCo:Parser[0] <()>_R)
+                   @ r
+                   (\ ds2 :: () e :: Text.Trifecta.Result.Err ->
+                    w Main.question_eta
+                      (case e of wild4 { Text.Trifecta.Result.Err ds1 ds4 ds3 ->
+                       case ds1 of wild {
+                         GHC.Base.Nothing -> wild4
+                         GHC.Base.Just ipv
+                         -> Text.Trifecta.Result.Err wild ds4 Main.question4 } }))
+                   (\ e :: Text.Trifecta.Result.Err ->
+                    w1
+                      (case e of wild { Text.Trifecta.Result.Err ds1 ds2 ds3 ->
+                       Text.Trifecta.Result.Err ds1 ds2 Main.question4 }))
+                   (\ ds2 :: () -> lvl10)
+                   (\ ds4 :: Text.PrettyPrint.ANSI.Leijen.Doc -> lvl9)) -}
+e5208c8a9904791b7fddff6d9cba6142
+  $wa1 ::
+    ([GHC.Types.Char]
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> ([GHC.Types.Char]
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.PrettyPrint.ANSI.Leijen.Doc
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 5,
+     Strictness: <L,1*C1(U)><L,C(C1(C1(C1(U))))><L,U><L,U><L,U(U,U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ @ r
+                   w :: [GHC.Types.Char]
+                        -> Text.Trifecta.Result.Err
+                        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w1 :: [GHC.Types.Char]
+                         -> Data.Set.Base.Set GHC.Base.String
+                         -> Text.Trifecta.Delta.Delta
+                         -> Data.ByteString.Internal.ByteString
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w2 :: Text.PrettyPrint.ANSI.Leijen.Doc
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w3 :: Text.Trifecta.Delta.Delta
+                   w4 :: Data.ByteString.Internal.ByteString ->
+                 Text.Trifecta.Parser.$wa
+                   @ GHC.Types.Char
+                   (GHC.Types.: @ GHC.Types.Char)
+                   Main.question9
+                     `cast`
+                   (Sym (Text.Trifecta.Parser.NTCo:Parser[0] <GHC.Types.Char>_R))
+                   @ r
+                   (\ x :: [GHC.Types.Char][OneShot] ->
+                    w (GHC.List.reverse @ GHC.Types.Char x))
+                   (\ x :: [GHC.Types.Char] ->
+                    w1 (GHC.List.reverse @ GHC.Types.Char x))
+                   w2
+                   w3
+                   w4) -}
+a498e751f269a13662f4c5e3907296d0
+  $wa2 ::
+    (Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (GHC.Types.Char
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> GHC.Prim.Addr#
+    -> GHC.ForeignPtr.ForeignPtrContents
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 7,
+     Strictness: <L,1*C1(U)><L,C(C1(C(U)))><S,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+36850c47981ee106db382bac32d9452b
+  main :: GHC.Types.IO b
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (forall b. Sym (GHC.Types.NTCo:IO[0] <b>_R)) -}
+1069cac31205ae602f2d7a48bf53bbd4
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, b #)
+  {- Arity: 1, Strictness: <L,U> -}
+5be6e1a31994a1e2ee92da1c5e7fe80c
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Prim.Any #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ GHC.Prim.Any
+                   (Main.main1 @ GHC.Prim.Any)
+                     `cast`
+                   (Sym (GHC.Types.NTCo:IO[0] <GHC.Prim.Any>_R))) -}
+e08cfcfaf629d544704c2db621381594
+  question :: Text.Trifecta.Parser.Parser ()
+  {- Arity: 6,
+     Unfolding: InlineRule (0, True, True)
+                Main.question1
+                  `cast`
+                (Sym (Text.Trifecta.Parser.NTCo:Parser[0] <()>_R)) -}
+58201a66e859b1b7b83c3b961204dd6a
+  question1 ::
+    (()
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.Trifecta.Result.Err
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (()
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.PrettyPrint.ANSI.Leijen.Doc
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 6,
+     Unfolding: (Text.Trifecta.Parser.$fApplicativeParser2
+                   @ [GHC.Types.Char]
+                   @ ()
+                   Main.question8
+                     `cast`
+                   (Sym (Text.Trifecta.Parser.NTCo:Parser[0] <[GHC.Types.Char]>_R))
+                   Main.question2
+                     `cast`
+                   (Sym (Text.Trifecta.Parser.NTCo:Parser[0] <()>_R))) -}
+0b5503e1a504235a5767893a6a3547b3
+  question2 ::
+    (()
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.Trifecta.Result.Err
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (()
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.PrettyPrint.ANSI.Leijen.Doc
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 6,
+     Unfolding: (Text.Trifecta.Parser.$fApplicativeParser2
+                   @ GHC.Base.String
+                   @ ()
+                   Main.question3
+                     `cast`
+                   (Sym (Text.Trifecta.Parser.NTCo:Parser[0] <GHC.Base.String>_R))
+                   Text.Trifecta.Parser.$fParsingParser_$ceof) -}
+1ccbf089616164486c210163e8869e3a
+  question3 ::
+    (GHC.Base.String
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.Trifecta.Result.Err
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (GHC.Base.String
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.PrettyPrint.ANSI.Leijen.Doc
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 4, Strictness: <L,C(C1(U))><L,C(U)><L,C(U)><L,A>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, True)
+                (\ @ r
+                   w :: GHC.Base.String
+                        -> Text.Trifecta.Result.Err
+                        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w1 :: Text.Trifecta.Result.Err
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w2 :: GHC.Base.String
+                         -> Data.Set.Base.Set GHC.Base.String
+                         -> Text.Trifecta.Delta.Delta
+                         -> Data.ByteString.Internal.ByteString
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w3 :: Text.PrettyPrint.ANSI.Leijen.Doc
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r ->
+                 Main.$wa @ r w w1 w2) -}
+7d22ecfbe69712a5bcbbd60034b7e83e
+  question4 :: Data.Set.Base.Set GHC.Base.String
+  {- Unfolding: (Data.Set.Base.Bin
+                   @ GHC.Base.String
+                   1
+                   Main.question_nm2
+                   (Data.Set.Base.Tip @ GHC.Base.String)
+                   (Data.Set.Base.Tip @ GHC.Base.String)) -}
+71256a9c37c90306379c336b49bc580b
+  question5 :: GHC.Base.String
+  {- Unfolding: (GHC.Show.showLitString
+                   Main.question_eta
+                   Main.question6) -}
+3882548d70aa9f9f1c5f8aa86acf34e4
+  question6 :: [GHC.Types.Char]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows6
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+16e32e45764db015a71910354b84a589
+  question7 :: Text.Trifecta.Result.Err
+  {- Unfolding: (Text.Trifecta.Result.Err
+                   (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                   (GHC.Types.[] @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                   Main.question4) -}
+13e1903fd631838899ec5fd8f29c28bd
+  question8 ::
+    ([GHC.Types.Char]
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.Trifecta.Result.Err
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> ([GHC.Types.Char]
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.PrettyPrint.ANSI.Leijen.Doc
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 6,
+     Strictness: <L,1*C1(U)><L,A><L,C(C1(C1(C1(U))))><L,U><L,U><L,U(U,U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (6, True, True)
+                (\ @ r
+                   w :: [GHC.Types.Char]
+                        -> Text.Trifecta.Result.Err
+                        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w1 :: Text.Trifecta.Result.Err
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w2 :: [GHC.Types.Char]
+                         -> Data.Set.Base.Set GHC.Base.String
+                         -> Text.Trifecta.Delta.Delta
+                         -> Data.ByteString.Internal.ByteString
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w3 :: Text.PrettyPrint.ANSI.Leijen.Doc
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w4 :: Text.Trifecta.Delta.Delta
+                   w5 :: Data.ByteString.Internal.ByteString ->
+                 Main.$wa1 @ r w w2 w3 w4 w5) -}
+b80536571ef3fa7e2ad0ab83f69b1763
+  question9 ::
+    (GHC.Types.Char
+     -> Text.Trifecta.Result.Err
+     -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.Trifecta.Result.Err
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (GHC.Types.Char
+        -> Data.Set.Base.Set GHC.Base.String
+        -> Text.Trifecta.Delta.Delta
+        -> Data.ByteString.Internal.ByteString
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> (Text.PrettyPrint.ANSI.Leijen.Doc
+        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r)
+    -> Text.Trifecta.Delta.Delta
+    -> Data.ByteString.Internal.ByteString
+    -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+  {- Arity: 6,
+     Strictness: <L,A><L,1*C1(U)><L,C(C1(C(U)))><L,A><S,U><S,1*U(U,U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (6, True, False)
+                (\ @ r
+                   w :: GHC.Types.Char
+                        -> Text.Trifecta.Result.Err
+                        -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w1 :: Text.Trifecta.Result.Err
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w2 :: GHC.Types.Char
+                         -> Data.Set.Base.Set GHC.Base.String
+                         -> Text.Trifecta.Delta.Delta
+                         -> Data.ByteString.Internal.ByteString
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w3 :: Text.PrettyPrint.ANSI.Leijen.Doc
+                         -> Text.Trifecta.Util.It.It Text.Trifecta.Rope.Rope r
+                   w4 :: Text.Trifecta.Delta.Delta
+                   w5 :: Data.ByteString.Internal.ByteString ->
+                 case w5 of ww { Data.ByteString.Internal.PS ww1 ww2 ww3 ww4 ->
+                 Main.$wa2 @ r w1 w2 w4 ww1 ww2 ww3 ww4 }) -}
+3efd0a251b8b41073a3a6b7ffb00f054
+  question_ds2 :: Text.Trifecta.Parser.Parser ()
+  {- Unfolding: (Main.question_go Main.question_eta) -}
+1397a8c2d6b21dd56ddf2f7c5432eda1
+  question_eta :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "?"#) -}
+b2985b7a7b944641574f001040c67d50
+  question_go :: [GHC.Types.Char] -> Text.Trifecta.Parser.Parser ()
+  {- Arity: 1, Strictness: <S,1*U> -}
+7a3af5d48ba4f76e53d2cf7d8a34d3dc
+  question_nm2 :: GHC.Base.String
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows6
+                   Main.question5) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
